@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 25%; /* Adjust the left position as needed */
+    right: 25%; /* Adjust the right position as needed */
+    top: 5%; /* Center the menu vertically within the screen */
+    transform: translateY(-50%); /* Adjust to vertically center the menu */
+    /* border: 1px solid #ccc; */
+  }
+  .portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 15%; 
+    top: 5%; 
+    transform: translateY(-50%);
+    font-weight: 600;
+    font: 1em sans-serif;
+    color: cornflowerblue;
+  }
+  .port {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .folio {
+    color: blue;
+    font-size: medium;
+    font-weight: bolder;
+  }
+  
+  .contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    right: 15%; 
+    top: 5%; 
+    transform: translateY(-50%);
+    width: 100px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+  border: 2px solid #333; /* Border width, style, and color */
+  background-color: #19a8dc; /* Background color */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the text horizontally */
+  line-height: 100px; /* Center the text vertically */
+  margin: 10px auto; 
+  }
