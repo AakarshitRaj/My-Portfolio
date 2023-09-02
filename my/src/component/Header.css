@@ -1,16 +1,13 @@
-.header{
-    display: flex;
-}
+
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    left: 25%; /* Adjust the left position as needed */
-    right: 25%; /* Adjust the right position as needed */
-    top: 5%; /* Center the menu vertically within the screen */
-    transform: translateY(-50%); /* Adjust to vertically center the menu */
-    /* border: 1px solid #ccc; */
+    left: 25%; 
+    right: 25%; 
+    top: 5%; 
+    transform: translateY(-50%); 
   }
   .portfolio{
     display: flex;
